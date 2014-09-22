@@ -1,0 +1,17 @@
+PODS:
+  - NSLogger (1.2)
+  - xProject (1.0.1):
+    - NSLogger (= 1.2)
+
+DEPENDENCIES:
+  - xProject (from `git@github.com:Lwgfangz/xProject.git`)
+
+EXTERNAL SOURCES:
+  xProject:
+    :git: git@github.com:Lwgfangz/xProject.git
+
+SPEC CHECKSUMS:
+  NSLogger: 3df5dca5dcbf99fe1e5c54931e44880f6e7eb089
+  xProject: db59509e10dfc95fdd942d9d69d03d0237116dcd
+
+COCOAPODS: 0.33.1

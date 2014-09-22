@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0510"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0045695319825A4A0017885E"
+               BuildableName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.app"
+               BlueprintName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu"
+               ReferencedContainer = "container:demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0045697719825A4B0017885E"
+               BuildableName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpuTests.xctest"
+               BlueprintName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpuTests"
+               ReferencedContainer = "container:demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0045695319825A4A0017885E"
+            BuildableName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.app"
+            BlueprintName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu"
+            ReferencedContainer = "container:demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0045695319825A4A0017885E"
+            BuildableName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.app"
+            BlueprintName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu"
+            ReferencedContainer = "container:demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0045695319825A4A0017885E"
+            BuildableName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.app"
+            BlueprintName = "demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu"
+            ReferencedContainer = "container:demo_sleep&#x662f;&#x5426;&#x6d88;&#x8017;cpu.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003CF3EB1961786200C004FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF3EA1961786200C004FC /* Foundation.framework */; };
+		003CF3ED1961786200C004FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF3EC1961786200C004FC /* CoreGraphics.framework */; };
+		003CF3EF1961786200C004FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF3EE1961786200C004FC /* UIKit.framework */; };
+		003CF3F51961786200C004FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003CF3F31961786200C004FC /* InfoPlist.strings */; };
+		003CF3F71961786200C004FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF3F61961786200C004FC /* main.m */; };
+		003CF3FB1961786200C004FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF3FA1961786200C004FC /* AppDelegate.m */; };
+		003CF3FE1961786200C004FC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003CF3FC1961786200C004FC /* Main_iPhone.storyboard */; };
+		003CF4011961786200C004FC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003CF3FF1961786200C004FC /* Main_iPad.storyboard */; };
+		003CF4041961786200C004FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4031961786200C004FC /* ViewController.m */; };
+		003CF4061961786200C004FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003CF4051961786200C004FC /* Images.xcassets */; };
+		003CF40D1961786200C004FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF40C1961786200C004FC /* XCTest.framework */; };
+		003CF40E1961786200C004FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF3EA1961786200C004FC /* Foundation.framework */; };
+		003CF40F1961786200C004FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF3EE1961786200C004FC /* UIKit.framework */; };
+		003CF4171961786200C004FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 003CF4151961786200C004FC /* InfoPlist.strings */; };
+		003CF4191961786200C004FC /* demo_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4181961786200C004FC /* demo_____Tests.m */; };
+		003CF4581961787200C004FC /* baiduNaviSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 003CF4231961787200C004FC /* baiduNaviSDK.bundle */; };
+		003CF4591961787200C004FC /* libbaiduNaviSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF42C1961787200C004FC /* libbaiduNaviSDK.a */; };
+		003CF45A1961787200C004FC /* libBaiduMobStatForSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF42F1961787200C004FC /* libBaiduMobStatForSDK.a */; };
+		003CF45B1961787200C004FC /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4321961787200C004FC /* CDataScanner.m */; };
+		003CF45C1961787200C004FC /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4351961787200C004FC /* CFilteringJSONSerializer.m */; };
+		003CF45D1961787200C004FC /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4371961787200C004FC /* CJSONDeserializer_BlocksExtensions.m */; };
+		003CF45E1961787200C004FC /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4391961787200C004FC /* CJSONSerialization.m */; };
+		003CF45F1961787200C004FC /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF43B1961787200C004FC /* CJSONSerializedData.m */; };
+		003CF4601961787200C004FC /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF43E1961787200C004FC /* CDataScanner_Extensions.m */; };
+		003CF4611961787200C004FC /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4401961787200C004FC /* NSCharacterSet_Extensions.m */; };
+		003CF4621961787200C004FC /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4421961787200C004FC /* NSDictionary_JSONExtensions.m */; };
+		003CF4631961787200C004FC /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4441961787200C004FC /* NSScanner_Extensions.m */; };
+		003CF4641961787200C004FC /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4471961787200C004FC /* CJSONDataSerializer.m */; };
+		003CF4651961787200C004FC /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4491961787200C004FC /* CJSONDeserializer.m */; };
+		003CF4661961787200C004FC /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF44B1961787200C004FC /* CJSONScanner.m */; };
+		003CF4671961787200C004FC /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF44D1961787200C004FC /* CJSONSerializer.m */; };
+		003CF4681961787200C004FC /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF44F1961787200C004FC /* CSerializedJSONData.m */; };
+		003CF4691961787200C004FC /* BNaviSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 003CF4531961787200C004FC /* BNaviSoundManager.m */; };
+		003CF46A1961787200C004FC /* BNTTSSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 003CF4551961787200C004FC /* BNTTSSDK.bundle */; };
+		003CF46B1961787200C004FC /* libBNaviTTSManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 003CF4561961787200C004FC /* libBNaviTTSManager.a */; };
+		003CF46C1961787200C004FC /* updatelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 003CF4571961787200C004FC /* updatelog.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003CF4101961786200C004FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003CF3DF1961786200C004FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003CF3E61961786200C004FC;
+			remoteInfo = "demo_百度导航";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003CF3E71961786200C004FC /* demo_百度导航.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo_百度导航.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003CF3EA1961786200C004FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		003CF3EC1961786200C004FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		003CF3EE1961786200C004FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		003CF3F21961786200C004FC /* demo_百度导航-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo_百度导航-Info.plist"; sourceTree = "<group>"; };
+		003CF3F41961786200C004FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		003CF3F61961786200C004FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		003CF3F81961786200C004FC /* demo_百度导航-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo_百度导航-Prefix.pch"; sourceTree = "<group>"; };
+		003CF3F91961786200C004FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		003CF3FA1961786200C004FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		003CF3FD1961786200C004FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		003CF4001961786200C004FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		003CF4021961786200C004FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		003CF4031961786200C004FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		003CF4051961786200C004FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		003CF40B1961786200C004FC /* demo_百度导航Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo_百度导航Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003CF40C1961786200C004FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		003CF4141961786200C004FC /* demo_百度导航Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo_百度导航Tests-Info.plist"; sourceTree = "<group>"; };
+		003CF4161961786200C004FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		003CF4181961786200C004FC /* demo_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "demo_____Tests.m"; sourceTree = "<group>"; };
+		003CF4231961787200C004FC /* baiduNaviSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = baiduNaviSDK.bundle; sourceTree = "<group>"; };
+		003CF4251961787200C004FC /* BNCommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonDef.h; sourceTree = "<group>"; };
+		003CF4261961787200C004FC /* BNCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCoreServices.h; sourceTree = "<group>"; };
+		003CF4271961787200C004FC /* BNRoutePlanManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRoutePlanManagerProtocol.h; sourceTree = "<group>"; };
+		003CF4281961787200C004FC /* BNRoutePlanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRoutePlanModel.h; sourceTree = "<group>"; };
+		003CF4291961787200C004FC /* BNSoundManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNSoundManagerProtocol.h; sourceTree = "<group>"; };
+		003CF42A1961787200C004FC /* BNUIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNUIManagerProtocol.h; sourceTree = "<group>"; };
+		003CF42C1961787200C004FC /* libbaiduNaviSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbaiduNaviSDK.a; sourceTree = "<group>"; };
+		003CF42E1961787200C004FC /* BaiduMobStatForSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduMobStatForSDK.h; sourceTree = "<group>"; };
+		003CF42F1961787200C004FC /* libBaiduMobStatForSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStatForSDK.a; sourceTree = "<group>"; };
+		003CF4311961787200C004FC /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		003CF4321961787200C004FC /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		003CF4341961787200C004FC /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		003CF4351961787200C004FC /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		003CF4361961787200C004FC /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		003CF4371961787200C004FC /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		003CF4381961787200C004FC /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		003CF4391961787200C004FC /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		003CF43A1961787200C004FC /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		003CF43B1961787200C004FC /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		003CF43D1961787200C004FC /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		003CF43E1961787200C004FC /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		003CF43F1961787200C004FC /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		003CF4401961787200C004FC /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		003CF4411961787200C004FC /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		003CF4421961787200C004FC /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		003CF4431961787200C004FC /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
+		003CF4441961787200C004FC /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
+		003CF4461961787200C004FC /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
+		003CF4471961787200C004FC /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
+		003CF4481961787200C004FC /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		003CF4491961787200C004FC /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		003CF44A1961787200C004FC /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		003CF44B1961787200C004FC /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		003CF44C1961787200C004FC /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		003CF44D1961787200C004FC /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		003CF44E1961787200C004FC /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
+		003CF44F1961787200C004FC /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
+		003CF4501961787200C004FC /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		003CF4521961787200C004FC /* BNaviSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNaviSoundManager.h; sourceTree = "<group>"; };
+		003CF4531961787200C004FC /* BNaviSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNaviSoundManager.m; sourceTree = "<group>"; };
+		003CF4541961787200C004FC /* BNaviTTSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNaviTTSManager.h; sourceTree = "<group>"; };
+		003CF4551961787200C004FC /* BNTTSSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BNTTSSDK.bundle; sourceTree = "<group>"; };
+		003CF4561961787200C004FC /* libBNaviTTSManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBNaviTTSManager.a; sourceTree = "<group>"; };
+		003CF4571961787200C004FC /* updatelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = updatelog.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		003CF3E41961786200C004FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003CF45A1961787200C004FC /* libBaiduMobStatForSDK.a in Frameworks */,
+				003CF4591961787200C004FC /* libbaiduNaviSDK.a in Frameworks */,
+				003CF3ED1961786200C004FC /* CoreGraphics.framework in Frameworks */,
+				003CF3EF1961786200C004FC /* UIKit.framework in Frameworks */,
+				003CF46B1961787200C004FC /* libBNaviTTSManager.a in Frameworks */,
+				003CF3EB1961786200C004FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003CF4081961786200C004FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003CF40D1961786200C004FC /* XCTest.framework in Frameworks */,
+				003CF40F1961786200C004FC /* UIKit.framework in Frameworks */,
+				003CF40E1961786200C004FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003CF3DE1961786200C004FC = {
+			isa = PBXGroup;
+			children = (
+				003CF4221961787200C004FC /* baiduNaviSDK */,
+				003CF3F01961786200C004FC /* demo_百度导航 */,
+				003CF4121961786200C004FC /* demo_百度导航Tests */,
+				003CF3E91961786200C004FC /* Frameworks */,
+				003CF3E81961786200C004FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		003CF3E81961786200C004FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003CF3E71961786200C004FC /* demo_百度导航.app */,
+				003CF40B1961786200C004FC /* demo_百度导航Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003CF3E91961786200C004FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				003CF3EA1961786200C004FC /* Foundation.framework */,
+				003CF3EC1961786200C004FC /* CoreGraphics.framework */,
+				003CF3EE1961786200C004FC /* UIKit.framework */,
+				003CF40C1961786200C004FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		003CF3F01961786200C004FC /* demo_百度导航 */ = {
+			isa = PBXGroup;
+			children = (
+				003CF3F91961786200C004FC /* AppDelegate.h */,
+				003CF3FA1961786200C004FC /* AppDelegate.m */,
+				003CF3FC1961786200C004FC /* Main_iPhone.storyboard */,
+				003CF3FF1961786200C004FC /* Main_iPad.storyboard */,
+				003CF4021961786200C004FC /* ViewController.h */,
+				003CF4031961786200C004FC /* ViewController.m */,
+				003CF4051961786200C004FC /* Images.xcassets */,
+				003CF3F11961786200C004FC /* Supporting Files */,
+			);
+			path = "demo_百度导航";
+			sourceTree = "<group>";
+		};
+		003CF3F11961786200C004FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				003CF3F21961786200C004FC /* demo_百度导航-Info.plist */,
+				003CF3F31961786200C004FC /* InfoPlist.strings */,
+				003CF3F61961786200C004FC /* main.m */,
+				003CF3F81961786200C004FC /* demo_百度导航-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		003CF4121961786200C004FC /* demo_百度导航Tests */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4181961786200C004FC /* demo_____Tests.m */,
+				003CF4131961786200C004FC /* Supporting Files */,
+			);
+			path = "demo_百度导航Tests";
+			sourceTree = "<group>";
+		};
+		003CF4131961786200C004FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4141961786200C004FC /* demo_百度导航Tests-Info.plist */,
+				003CF4151961786200C004FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		003CF4221961787200C004FC /* baiduNaviSDK */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4231961787200C004FC /* baiduNaviSDK.bundle */,
+				003CF4241961787200C004FC /* inc */,
+				003CF42B1961787200C004FC /* libs */,
+				003CF42D1961787200C004FC /* Statistic */,
+				003CF4511961787200C004FC /* TTS */,
+				003CF4571961787200C004FC /* updatelog.txt */,
+			);
+			path = baiduNaviSDK;
+			sourceTree = "<group>";
+		};
+		003CF4241961787200C004FC /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4251961787200C004FC /* BNCommonDef.h */,
+				003CF4261961787200C004FC /* BNCoreServices.h */,
+				003CF4271961787200C004FC /* BNRoutePlanManagerProtocol.h */,
+				003CF4281961787200C004FC /* BNRoutePlanModel.h */,
+				003CF4291961787200C004FC /* BNSoundManagerProtocol.h */,
+				003CF42A1961787200C004FC /* BNUIManagerProtocol.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		003CF42B1961787200C004FC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				003CF42C1961787200C004FC /* libbaiduNaviSDK.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		003CF42D1961787200C004FC /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				003CF42E1961787200C004FC /* BaiduMobStatForSDK.h */,
+				003CF42F1961787200C004FC /* libBaiduMobStatForSDK.a */,
+				003CF4301961787200C004FC /* TouchJSON */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		003CF4301961787200C004FC /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4311961787200C004FC /* CDataScanner.h */,
+				003CF4321961787200C004FC /* CDataScanner.m */,
+				003CF4331961787200C004FC /* Experimental */,
+				003CF43C1961787200C004FC /* Extensions */,
+				003CF4451961787200C004FC /* JSON */,
+			);
+			path = TouchJSON;
+			sourceTree = "<group>";
+		};
+		003CF4331961787200C004FC /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4341961787200C004FC /* CFilteringJSONSerializer.h */,
+				003CF4351961787200C004FC /* CFilteringJSONSerializer.m */,
+				003CF4361961787200C004FC /* CJSONDeserializer_BlocksExtensions.h */,
+				003CF4371961787200C004FC /* CJSONDeserializer_BlocksExtensions.m */,
+				003CF4381961787200C004FC /* CJSONSerialization.h */,
+				003CF4391961787200C004FC /* CJSONSerialization.m */,
+				003CF43A1961787200C004FC /* CJSONSerializedData.h */,
+				003CF43B1961787200C004FC /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		003CF43C1961787200C004FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				003CF43D1961787200C004FC /* CDataScanner_Extensions.h */,
+				003CF43E1961787200C004FC /* CDataScanner_Extensions.m */,
+				003CF43F1961787200C004FC /* NSCharacterSet_Extensions.h */,
+				003CF4401961787200C004FC /* NSCharacterSet_Extensions.m */,
+				003CF4411961787200C004FC /* NSDictionary_JSONExtensions.h */,
+				003CF4421961787200C004FC /* NSDictionary_JSONExtensions.m */,
+				003CF4431961787200C004FC /* NSScanner_Extensions.h */,
+				003CF4441961787200C004FC /* NSScanner_Extensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		003CF4451961787200C004FC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4461961787200C004FC /* CJSONDataSerializer.h */,
+				003CF4471961787200C004FC /* CJSONDataSerializer.m */,
+				003CF4481961787200C004FC /* CJSONDeserializer.h */,
+				003CF4491961787200C004FC /* CJSONDeserializer.m */,
+				003CF44A1961787200C004FC /* CJSONScanner.h */,
+				003CF44B1961787200C004FC /* CJSONScanner.m */,
+				003CF44C1961787200C004FC /* CJSONSerializer.h */,
+				003CF44D1961787200C004FC /* CJSONSerializer.m */,
+				003CF44E1961787200C004FC /* CSerializedJSONData.h */,
+				003CF44F1961787200C004FC /* CSerializedJSONData.m */,
+				003CF4501961787200C004FC /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		003CF4511961787200C004FC /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+				003CF4521961787200C004FC /* BNaviSoundManager.h */,
+				003CF4531961787200C004FC /* BNaviSoundManager.m */,
+				003CF4541961787200C004FC /* BNaviTTSManager.h */,
+				003CF4551961787200C004FC /* BNTTSSDK.bundle */,
+				003CF4561961787200C004FC /* libBNaviTTSManager.a */,
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003CF3E61961786200C004FC /* demo_百度导航 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003CF41C1961786200C004FC /* Build configuration list for PBXNativeTarget "demo_百度导航" */;
+			buildPhases = (
+				003CF3E31961786200C004FC /* Sources */,
+				003CF3E41961786200C004FC /* Frameworks */,
+				003CF3E51961786200C004FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo_百度导航";
+			productName = "demo_百度导航";
+			productReference = 003CF3E71961786200C004FC /* demo_百度导航.app */;
+			productType = "com.apple.product-type.application";
+		};
+		003CF40A1961786200C004FC /* demo_百度导航Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003CF41F1961786200C004FC /* Build configuration list for PBXNativeTarget "demo_百度导航Tests" */;
+			buildPhases = (
+				003CF4071961786200C004FC /* Sources */,
+				003CF4081961786200C004FC /* Frameworks */,
+				003CF4091961786200C004FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003CF4111961786200C004FC /* PBXTargetDependency */,
+			);
+			name = "demo_百度导航Tests";
+			productName = "demo_百度导航Tests";
+			productReference = 003CF40B1961786200C004FC /* demo_百度导航Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003CF3DF1961786200C004FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = aiDriving.com;
+				TargetAttributes = {
+					003CF40A1961786200C004FC = {
+						TestTargetID = 003CF3E61961786200C004FC;
+					};
+				};
+			};
+			buildConfigurationList = 003CF3E21961786200C004FC /* Build configuration list for PBXProject "demo_百度导航" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 003CF3DE1961786200C004FC;
+			productRefGroup = 003CF3E81961786200C004FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003CF3E61961786200C004FC /* demo_百度导航 */,
+				003CF40A1961786200C004FC /* demo_百度导航Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		003CF3E51961786200C004FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003CF4011961786200C004FC /* Main_iPad.storyboard in Resources */,
+				003CF4581961787200C004FC /* baiduNaviSDK.bundle in Resources */,
+				003CF4061961786200C004FC /* Images.xcassets in Resources */,
+				003CF3FE1961786200C004FC /* Main_iPhone.storyboard in Resources */,
+				003CF46A1961787200C004FC /* BNTTSSDK.bundle in Resources */,
+				003CF46C1961787200C004FC /* updatelog.txt in Resources */,
+				003CF3F51961786200C004FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003CF4091961786200C004FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003CF4171961786200C004FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		003CF3E31961786200C004FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003CF4691961787200C004FC /* BNaviSoundManager.m in Sources */,
+				003CF4651961787200C004FC /* CJSONDeserializer.m in Sources */,
+				003CF4621961787200C004FC /* NSDictionary_JSONExtensions.m in Sources */,
+				003CF45B1961787200C004FC /* CDataScanner.m in Sources */,
+				003CF4671961787200C004FC /* CJSONSerializer.m in Sources */,
+				003CF45C1961787200C004FC /* CFilteringJSONSerializer.m in Sources */,
+				003CF4661961787200C004FC /* CJSONScanner.m in Sources */,
+				003CF45D1961787200C004FC /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				003CF45F1961787200C004FC /* CJSONSerializedData.m in Sources */,
+				003CF4641961787200C004FC /* CJSONDataSerializer.m in Sources */,
+				003CF4041961786200C004FC /* ViewController.m in Sources */,
+				003CF4601961787200C004FC /* CDataScanner_Extensions.m in Sources */,
+				003CF45E1961787200C004FC /* CJSONSerialization.m in Sources */,
+				003CF4611961787200C004FC /* NSCharacterSet_Extensions.m in Sources */,
+				003CF3FB1961786200C004FC /* AppDelegate.m in Sources */,
+				003CF3F71961786200C004FC /* main.m in Sources */,
+				003CF4631961787200C004FC /* NSScanner_Extensions.m in Sources */,
+				003CF4681961787200C004FC /* CSerializedJSONData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003CF4071961786200C004FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003CF4191961786200C004FC /* demo_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003CF4111961786200C004FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003CF3E61961786200C004FC /* demo_百度导航 */;
+			targetProxy = 003CF4101961786200C004FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		003CF3F31961786200C004FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003CF3F41961786200C004FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		003CF3FC1961786200C004FC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003CF3FD1961786200C004FC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		003CF3FF1961786200C004FC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003CF4001961786200C004FC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		003CF4151961786200C004FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003CF4161961786200C004FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		003CF41A1961786200C004FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		003CF41B1961786200C004FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		003CF41D1961786200C004FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_百度导航/demo_百度导航-Prefix.pch";
+				INFOPLIST_FILE = "demo_百度导航/demo_百度导航-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/baiduNaviSDK/libs",
+					"$(PROJECT_DIR)/baiduNaviSDK/Statistic",
+					"$(PROJECT_DIR)/baiduNaviSDK/TTS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		003CF41E1961786200C004FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_百度导航/demo_百度导航-Prefix.pch";
+				INFOPLIST_FILE = "demo_百度导航/demo_百度导航-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/baiduNaviSDK/libs",
+					"$(PROJECT_DIR)/baiduNaviSDK/Statistic",
+					"$(PROJECT_DIR)/baiduNaviSDK/TTS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		003CF4201961786200C004FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/demo_百度导航.app/demo_百度导航";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_百度导航/demo_百度导航-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "demo_百度导航Tests/demo_百度导航Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		003CF4211961786200C004FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/demo_百度导航.app/demo_百度导航";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_百度导航/demo_百度导航-Prefix.pch";
+				INFOPLIST_FILE = "demo_百度导航Tests/demo_百度导航Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		003CF3E21961786200C004FC /* Build configuration list for PBXProject "demo_百度导航" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003CF41A1961786200C004FC /* Debug */,
+				003CF41B1961786200C004FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003CF41C1961786200C004FC /* Build configuration list for PBXNativeTarget "demo_百度导航" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003CF41D1961786200C004FC /* Debug */,
+				003CF41E1961786200C004FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		003CF41F1961786200C004FC /* Build configuration list for PBXNativeTarget "demo_百度导航Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003CF4201961786200C004FC /* Debug */,
+				003CF4211961786200C004FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 003CF3DF1961786200C004FC /* Project object */;
+}

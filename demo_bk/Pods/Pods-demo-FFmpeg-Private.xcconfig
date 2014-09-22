@@ -1,0 +1,6 @@
+#include "Pods-demo-FFmpeg.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/FFmpeg" "${PODS_ROOT}/BuildHeaders/FFmpeg/libavcodec" "${PODS_ROOT}/BuildHeaders/FFmpeg/libavdevice" "${PODS_ROOT}/BuildHeaders/FFmpeg/libavfilter" "${PODS_ROOT}/BuildHeaders/FFmpeg/libavformat" "${PODS_ROOT}/BuildHeaders/FFmpeg/libavutil" "${PODS_ROOT}/BuildHeaders/FFmpeg/librtmp" "${PODS_ROOT}/BuildHeaders/FFmpeg/libswresample" "${PODS_ROOT}/BuildHeaders/FFmpeg/libswscale" "${PODS_ROOT}/BuildHeaders/FFmpeg/openssl" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/FFmpeg" "${PODS_ROOT}/Headers/FFmpeg/libavcodec" "${PODS_ROOT}/Headers/FFmpeg/libavdevice" "${PODS_ROOT}/Headers/FFmpeg/libavfilter" "${PODS_ROOT}/Headers/FFmpeg/libavformat" "${PODS_ROOT}/Headers/FFmpeg/libavutil" "${PODS_ROOT}/Headers/FFmpeg/librtmp" "${PODS_ROOT}/Headers/FFmpeg/libswresample" "${PODS_ROOT}/Headers/FFmpeg/libswscale" "${PODS_ROOT}/Headers/FFmpeg/openssl"
+LIBRARY_SEARCH_PATHS = ${PODS_DEMO_FFMPEG_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_DEMO_FFMPEG_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

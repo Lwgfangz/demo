@@ -1,0 +1,28 @@
+D/include////
+D/lib////
+/IMG.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_ImageIO.m/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_bmp.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_gif.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_jpg.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_lbm.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_pcx.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_png.c/1.1/Sun Mar  9 01:11:08 2014//
+/IMG_pnm.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_tga.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_tif.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_webp.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_xcf.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_xpm.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_xv.c/1.1/Sat Aug 10 17:38:36 2013//
+/IMG_xxx.c/1.1/Sat Aug 10 17:38:36 2013//
+/SDL2_framerate.c/1.1/Fri Mar  7 08:03:30 2014//
+/SDL2_framerate.h/1.1/Fri Mar  7 08:03:32 2014//
+/SDL2_gfxPrimitives.c/1.1/Fri Mar  7 08:03:34 2014//
+/SDL2_gfxPrimitives.h/1.1/Fri Mar  7 08:03:34 2014//
+/SDL2_gfxPrimitives_font.h/1.1/Fri Mar  7 08:03:34 2014//
+/SDL2_imageFilter.c/1.1/Fri Mar  7 09:02:22 2014//
+/SDL2_imageFilter.h/1.1/Fri Mar  7 08:03:30 2014//
+/SDL2_rotozoom.c/1.1/Fri Mar  7 08:03:34 2014//
+/SDL2_rotozoom.h/1.1/Fri Mar  7 08:03:34 2014//
+/SDL_image.h/1.1/Sat Aug 10 17:38:36 2013//

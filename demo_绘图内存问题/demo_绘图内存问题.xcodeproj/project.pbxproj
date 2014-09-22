@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F3563E1963FEAD00FF5851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F3563D1963FEAD00FF5851 /* Foundation.framework */; };
+		00F356401963FEAD00FF5851 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F3563F1963FEAD00FF5851 /* CoreGraphics.framework */; };
+		00F356421963FEAD00FF5851 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F356411963FEAD00FF5851 /* UIKit.framework */; };
+		00F356481963FEAD00FF5851 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F356461963FEAD00FF5851 /* InfoPlist.strings */; };
+		00F3564A1963FEAD00FF5851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F356491963FEAD00FF5851 /* main.m */; };
+		00F3564E1963FEAD00FF5851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F3564D1963FEAD00FF5851 /* AppDelegate.m */; };
+		00F356511963FEAD00FF5851 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F3564F1963FEAD00FF5851 /* Main_iPhone.storyboard */; };
+		00F356541963FEAD00FF5851 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F356521963FEAD00FF5851 /* Main_iPad.storyboard */; };
+		00F356571963FEAD00FF5851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F356561963FEAD00FF5851 /* ViewController.m */; };
+		00F356591963FEAD00FF5851 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F356581963FEAD00FF5851 /* Images.xcassets */; };
+		00F356601963FEAD00FF5851 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F3565F1963FEAD00FF5851 /* XCTest.framework */; };
+		00F356611963FEAD00FF5851 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F3563D1963FEAD00FF5851 /* Foundation.framework */; };
+		00F356621963FEAD00FF5851 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F356411963FEAD00FF5851 /* UIKit.framework */; };
+		00F3566A1963FEAD00FF5851 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F356681963FEAD00FF5851 /* InfoPlist.strings */; };
+		00F3566C1963FEAD00FF5851 /* demo_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F3566B1963FEAD00FF5851 /* demo_______Tests.m */; };
+		00F356761963FFB800FF5851 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00F356751963FFB800FF5851 /* 111.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F356631963FEAD00FF5851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00F356321963FEAD00FF5851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00F356391963FEAD00FF5851;
+			remoteInfo = "demo_绘图内存问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F3563A1963FEAD00FF5851 /* demo_绘图内存问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo_绘图内存问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F3563D1963FEAD00FF5851 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00F3563F1963FEAD00FF5851 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00F356411963FEAD00FF5851 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00F356451963FEAD00FF5851 /* demo_绘图内存问题-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo_绘图内存问题-Info.plist"; sourceTree = "<group>"; };
+		00F356471963FEAD00FF5851 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00F356491963FEAD00FF5851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00F3564B1963FEAD00FF5851 /* demo_绘图内存问题-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo_绘图内存问题-Prefix.pch"; sourceTree = "<group>"; };
+		00F3564C1963FEAD00FF5851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00F3564D1963FEAD00FF5851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00F356501963FEAD00FF5851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		00F356531963FEAD00FF5851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		00F356551963FEAD00FF5851 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00F356561963FEAD00FF5851 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00F356581963FEAD00FF5851 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00F3565E1963FEAD00FF5851 /* demo_绘图内存问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo_绘图内存问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F3565F1963FEAD00FF5851 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00F356671963FEAD00FF5851 /* demo_绘图内存问题Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo_绘图内存问题Tests-Info.plist"; sourceTree = "<group>"; };
+		00F356691963FEAD00FF5851 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00F3566B1963FEAD00FF5851 /* demo_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "demo_______Tests.m"; sourceTree = "<group>"; };
+		00F356751963FFB800FF5851 /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F356371963FEAD00FF5851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F356401963FEAD00FF5851 /* CoreGraphics.framework in Frameworks */,
+				00F356421963FEAD00FF5851 /* UIKit.framework in Frameworks */,
+				00F3563E1963FEAD00FF5851 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F3565B1963FEAD00FF5851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F356601963FEAD00FF5851 /* XCTest.framework in Frameworks */,
+				00F356621963FEAD00FF5851 /* UIKit.framework in Frameworks */,
+				00F356611963FEAD00FF5851 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F356311963FEAD00FF5851 = {
+			isa = PBXGroup;
+			children = (
+				00F356751963FFB800FF5851 /* 111.jpg */,
+				00F356431963FEAD00FF5851 /* demo_绘图内存问题 */,
+				00F356651963FEAD00FF5851 /* demo_绘图内存问题Tests */,
+				00F3563C1963FEAD00FF5851 /* Frameworks */,
+				00F3563B1963FEAD00FF5851 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00F3563B1963FEAD00FF5851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F3563A1963FEAD00FF5851 /* demo_绘图内存问题.app */,
+				00F3565E1963FEAD00FF5851 /* demo_绘图内存问题Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F3563C1963FEAD00FF5851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F3563D1963FEAD00FF5851 /* Foundation.framework */,
+				00F3563F1963FEAD00FF5851 /* CoreGraphics.framework */,
+				00F356411963FEAD00FF5851 /* UIKit.framework */,
+				00F3565F1963FEAD00FF5851 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00F356431963FEAD00FF5851 /* demo_绘图内存问题 */ = {
+			isa = PBXGroup;
+			children = (
+				00F3564C1963FEAD00FF5851 /* AppDelegate.h */,
+				00F3564D1963FEAD00FF5851 /* AppDelegate.m */,
+				00F3564F1963FEAD00FF5851 /* Main_iPhone.storyboard */,
+				00F356521963FEAD00FF5851 /* Main_iPad.storyboard */,
+				00F356551963FEAD00FF5851 /* ViewController.h */,
+				00F356561963FEAD00FF5851 /* ViewController.m */,
+				00F356581963FEAD00FF5851 /* Images.xcassets */,
+				00F356441963FEAD00FF5851 /* Supporting Files */,
+			);
+			path = "demo_绘图内存问题";
+			sourceTree = "<group>";
+		};
+		00F356441963FEAD00FF5851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00F356451963FEAD00FF5851 /* demo_绘图内存问题-Info.plist */,
+				00F356461963FEAD00FF5851 /* InfoPlist.strings */,
+				00F356491963FEAD00FF5851 /* main.m */,
+				00F3564B1963FEAD00FF5851 /* demo_绘图内存问题-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00F356651963FEAD00FF5851 /* demo_绘图内存问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00F3566B1963FEAD00FF5851 /* demo_______Tests.m */,
+				00F356661963FEAD00FF5851 /* Supporting Files */,
+			);
+			path = "demo_绘图内存问题Tests";
+			sourceTree = "<group>";
+		};
+		00F356661963FEAD00FF5851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00F356671963FEAD00FF5851 /* demo_绘图内存问题Tests-Info.plist */,
+				00F356681963FEAD00FF5851 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F356391963FEAD00FF5851 /* demo_绘图内存问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F3566F1963FEAD00FF5851 /* Build configuration list for PBXNativeTarget "demo_绘图内存问题" */;
+			buildPhases = (
+				00F356361963FEAD00FF5851 /* Sources */,
+				00F356371963FEAD00FF5851 /* Frameworks */,
+				00F356381963FEAD00FF5851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "demo_绘图内存问题";
+			productName = "demo_绘图内存问题";
+			productReference = 00F3563A1963FEAD00FF5851 /* demo_绘图内存问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00F3565D1963FEAD00FF5851 /* demo_绘图内存问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F356721963FEAD00FF5851 /* Build configuration list for PBXNativeTarget "demo_绘图内存问题Tests" */;
+			buildPhases = (
+				00F3565A1963FEAD00FF5851 /* Sources */,
+				00F3565B1963FEAD00FF5851 /* Frameworks */,
+				00F3565C1963FEAD00FF5851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00F356641963FEAD00FF5851 /* PBXTargetDependency */,
+			);
+			name = "demo_绘图内存问题Tests";
+			productName = "demo_绘图内存问题Tests";
+			productReference = 00F3565E1963FEAD00FF5851 /* demo_绘图内存问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F356321963FEAD00FF5851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = aiDriving.com;
+				TargetAttributes = {
+					00F3565D1963FEAD00FF5851 = {
+						TestTargetID = 00F356391963FEAD00FF5851;
+					};
+				};
+			};
+			buildConfigurationList = 00F356351963FEAD00FF5851 /* Build configuration list for PBXProject "demo_绘图内存问题" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F356311963FEAD00FF5851;
+			productRefGroup = 00F3563B1963FEAD00FF5851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F356391963FEAD00FF5851 /* demo_绘图内存问题 */,
+				00F3565D1963FEAD00FF5851 /* demo_绘图内存问题Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F356381963FEAD00FF5851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F356541963FEAD00FF5851 /* Main_iPad.storyboard in Resources */,
+				00F356761963FFB800FF5851 /* 111.jpg in Resources */,
+				00F356591963FEAD00FF5851 /* Images.xcassets in Resources */,
+				00F356511963FEAD00FF5851 /* Main_iPhone.storyboard in Resources */,
+				00F356481963FEAD00FF5851 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F3565C1963FEAD00FF5851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F3566A1963FEAD00FF5851 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F356361963FEAD00FF5851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F356571963FEAD00FF5851 /* ViewController.m in Sources */,
+				00F3564E1963FEAD00FF5851 /* AppDelegate.m in Sources */,
+				00F3564A1963FEAD00FF5851 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00F3565A1963FEAD00FF5851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F3566C1963FEAD00FF5851 /* demo_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00F356641963FEAD00FF5851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00F356391963FEAD00FF5851 /* demo_绘图内存问题 */;
+			targetProxy = 00F356631963FEAD00FF5851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00F356461963FEAD00FF5851 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F356471963FEAD00FF5851 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00F3564F1963FEAD00FF5851 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F356501963FEAD00FF5851 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		00F356521963FEAD00FF5851 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F356531963FEAD00FF5851 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		00F356681963FEAD00FF5851 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F356691963FEAD00FF5851 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F3566D1963FEAD00FF5851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00F3566E1963FEAD00FF5851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F356701963FEAD00FF5851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_绘图内存问题/demo_绘图内存问题-Prefix.pch";
+				INFOPLIST_FILE = "demo_绘图内存问题/demo_绘图内存问题-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00F356711963FEAD00FF5851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_绘图内存问题/demo_绘图内存问题-Prefix.pch";
+				INFOPLIST_FILE = "demo_绘图内存问题/demo_绘图内存问题-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00F356731963FEAD00FF5851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/demo_绘图内存问题.app/demo_绘图内存问题";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_绘图内存问题/demo_绘图内存问题-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "demo_绘图内存问题Tests/demo_绘图内存问题Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00F356741963FEAD00FF5851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/demo_绘图内存问题.app/demo_绘图内存问题";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "demo_绘图内存问题/demo_绘图内存问题-Prefix.pch";
+				INFOPLIST_FILE = "demo_绘图内存问题Tests/demo_绘图内存问题Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F356351963FEAD00FF5851 /* Build configuration list for PBXProject "demo_绘图内存问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F3566D1963FEAD00FF5851 /* Debug */,
+				00F3566E1963FEAD00FF5851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F3566F1963FEAD00FF5851 /* Build configuration list for PBXNativeTarget "demo_绘图内存问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F356701963FEAD00FF5851 /* Debug */,
+				00F356711963FEAD00FF5851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F356721963FEAD00FF5851 /* Build configuration list for PBXNativeTarget "demo_绘图内存问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F356731963FEAD00FF5851 /* Debug */,
+				00F356741963FEAD00FF5851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00F356321963FEAD00FF5851 /* Project object */;
+}

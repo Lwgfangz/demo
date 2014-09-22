@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "demo_cocoaPod例子" do
+pod "xProject",:git=> 'git@github.com:Lwgfangz/xProject.git'
+end
+
+target "demo_cocoaPod例子Tests" do
+
+end
+
