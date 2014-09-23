@@ -1,0 +1,14 @@
+PODS:
+  - bsjsonadditions (0.0.1)
+
+DEPENDENCIES:
+  - bsjsonadditions (from `git@github.com:Lwgfangz/bsjsonadditions.git`)
+
+EXTERNAL SOURCES:
+  bsjsonadditions:
+    :git: git@github.com:Lwgfangz/bsjsonadditions.git
+
+SPEC CHECKSUMS:
+  bsjsonadditions: 27165488eb3e51e957dcb56d06e6e67f0ea6851b
+
+COCOAPODS: 0.33.1

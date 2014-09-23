@@ -1,0 +1,5 @@
+#include "Pods-demo_xProject-xProject.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/xProject" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/NSLogger" "${PODS_ROOT}/Headers/xProject"
+OTHER_LDFLAGS = -ObjC ${PODS_DEMO_XPROJECT_XPROJECT_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
