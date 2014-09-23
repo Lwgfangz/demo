@@ -9,7 +9,11 @@
 #import "DMViewController.h"
 #import "UIView+autolayoutView.h"
 #import "ALBottomSteelWire.h"
+#import "ALTopSteelWire.h"
+#import "ALRightSteelWire.h"
+#import "ALLeftSteelwire.h"
 #import "ALVPin.h"
+#import "ALHVPin.h"
 @interface DMViewController ()
 
 @end
@@ -92,7 +96,6 @@
 //                              multiplier:1
 //                              constant:0]];
     [ALVPin pinToView:button];
-NSLayoutAttributeBottom
 //下面这两个相当
 //butto的底部等于backview底部 -20
 //    [backview addConstraint:[NSLayoutConstraint
@@ -108,8 +111,8 @@ NSLayoutAttributeBottom
 
 
     //buttonde 的高度等于backview高度的0.3
-    [button setHeight:50];
-    [button setWidth:150];
+    [button setHeight:20];
+    [button setWidth:20];
 
 
 //    [backview addConstraint:[NSLayoutConstraint
@@ -134,25 +137,27 @@ NSLayoutAttributeBottom
     	[backview addConstraints:tmpConstraints];
 
         UIView *leftView = [UIView autolayoutView:redView];
-        leftView.backgroundColor = [UIColor yellowColor];
-
-
-
-
-    NSMutableArray *tmpConstraints1 = [NSMutableArray array];
-
-    //    UIView *inputView = [[UIView alloc]init];
-    //    inputView.translatesAutoresizingMaskIntoConstraints = NO;
-    //    [redView addSubview:inputView];
-    //
-    //    UIView *rightView = [[UIView alloc]init];
-    //    rightView.translatesAutoresizingMaskIntoConstraints = NO;
-    //    [redView addSubview:rightView];
-
-    [tmpConstraints1 addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"|-2-[leftView(==50)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(leftView)]];
-    [tmpConstraints1 addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-2-[leftView]-2-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(leftView)]];
+    [ALVPin pinToView:leftView];
+    [ALBottomSteelWire bindToView:leftView dimensions:5];
+//    [ALRightSteelWire bindToView:leftView dimensions:5];
+//    [ALLeftSteelwire bindToView:leftView dimensions:5];
+//    [ALTopSteelWire bindToView:leftView dimensions:5];
+    //[ALHVPin pinToView:leftView];
+    [leftView setHeight:50];
+    [leftView setWidth:150];
     
-    [redView addConstraints:tmpConstraints1];
+    
+//        leftView.backgroundColor = [UIColor yellowColor];
+//
+//
+//
+//
+//    NSMutableArray *tmpConstraints1 = [NSMutableArray array];
+//
+//    [tmpConstraints1 addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"|-2-[leftView(==50)]" options:0 metrics:nil views:NSDictionaryOfVariableBindings(leftView)]];
+//    [tmpConstraints1 addObjectsFromArray:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-2-[leftView]-2-|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(leftView)]];
+    
+    //[redView addConstraints:tmpConstraints1];
 
     self.view = backview;
 }

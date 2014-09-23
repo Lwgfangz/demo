@@ -31,6 +31,7 @@
 		0023D03619CF2A1D0079D22E /* ALHVPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0023D03519CF2A1D0079D22E /* ALHVPin.m */; };
 		0023D03919CF2D4D0079D22E /* ALRightSteelWire.m in Sources */ = {isa = PBXBuildFile; fileRef = 0023D03819CF2D4D0079D22E /* ALRightSteelWire.m */; };
 		0023D03C19CF2D5F0079D22E /* ALLeftSteelwire.m in Sources */ = {isa = PBXBuildFile; fileRef = 0023D03B19CF2D5F0079D22E /* ALLeftSteelwire.m */; };
+		003B926C19D17A0B00FD755A /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003B926B19D17A0B00FD755A /* Reveal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		0023D03819CF2D4D0079D22E /* ALRightSteelWire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALRightSteelWire.m; sourceTree = "<group>"; };
 		0023D03A19CF2D5F0079D22E /* ALLeftSteelwire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLeftSteelwire.h; sourceTree = "<group>"; };
 		0023D03B19CF2D5F0079D22E /* ALLeftSteelwire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLeftSteelwire.m; sourceTree = "<group>"; };
+		003B926B19D17A0B00FD755A /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				0003C5B219CDBD6700D05BBC /* CoreGraphics.framework in Frameworks */,
 				0003C5B419CDBD6700D05BBC /* UIKit.framework in Frameworks */,
 				0003C5B019CDBD6700D05BBC /* Foundation.framework in Frameworks */,
+				003B926C19D17A0B00FD755A /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +115,7 @@
 		0003C5A319CDBD6700D05BBC = {
 			isa = PBXGroup;
 			children = (
+				003B926B19D17A0B00FD755A /* Reveal.framework */,
 				0003C5B519CDBD6700D05BBC /* demo_ 自动布局 */,
 				0003C5D419CDBD6700D05BBC /* demo_ 自动布局Tests */,
 				0003C5AE19CDBD6700D05BBC /* Frameworks */,
@@ -447,10 +451,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo_ 自动布局/demo_ 自动布局-Prefix.pch";
 				INFOPLIST_FILE = "demo_ 自动布局/demo_ 自动布局-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9948ba3-2d10-4efc-ae25-e5299e40911b";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -460,10 +470,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo_ 自动布局/demo_ 自动布局-Prefix.pch";
 				INFOPLIST_FILE = "demo_ 自动布局/demo_ 自动布局-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9948ba3-2d10-4efc-ae25-e5299e40911b";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
