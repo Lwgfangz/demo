@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CC29624A-EE52-4F13-9EC0-7FFD103BD835</string>
+	<key>IDESourceControlProjectName</key>
+	<string>demo_autolayout学习</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>95FB2F5F4CA389DF989CDABB42B05F33DB71F167</key>
+		<string>https://github.com/Lwgfangz/demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demo_autolayout学习/demo_autolayout学习.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>95FB2F5F4CA389DF989CDABB42B05F33DB71F167</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Lwgfangz/demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>95FB2F5F4CA389DF989CDABB42B05F33DB71F167</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95FB2F5F4CA389DF989CDABB42B05F33DB71F167</string>
+			<key>IDESourceControlWCCName</key>
+			<string>demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
